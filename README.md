@@ -1,2 +1,2 @@
 # LeastSquareFitting
-Algorithm Analysis problem 3 of homework 1
+Algorithm Analysis the third problem of homework one
