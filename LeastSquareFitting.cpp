@@ -46,7 +46,7 @@ bool LeastSquareFit() {
 	// b = y_mean - a * x_mean
 	double a, b;
 	if (SqOf_xminx_mean == 0)
-		throw overflow_error("There is no SLOPE in these point set !\n");
+		throw overflow_error("SLOPE is zero in these point set !\n");
 	a = Mul_xy / SqOf_xminx_mean;
 	b = y_mean - (a * x_mean);
 	cout << "a = " << a << ", b = " << b << endl;
